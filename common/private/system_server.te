@@ -8,3 +8,9 @@ hal_client_domain(system_server, hal_lineage_touch)
 
 # App Lock
 add_service(system_server, app_lock_service);
+
+# Allow LineageHW (running as system server) to access LiveDisplay tuneables
+allow system_server sysfs_livedisplay_tuneable:file rw_file_perms;
+
+# Use HALs
+hal_client_domain(system_server, hal_lineage_livedisplay)

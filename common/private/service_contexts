@@ -7,4 +7,8 @@ profile                                   u:object_r:lineage_profile_service:s0
 adbroot_service                           u:object_r:adbroot_service:s0
 
 # App Lock
-app_lock                                   u:object_r:app_lock_service:s0
+app_lock                                  u:object_r:app_lock_service:s0
+
+# LiveDisplay
+lineagehardware                           u:object_r:lineage_hardware_service:s0
+lineagelivedisplay                        u:object_r:lineage_livedisplay_service:s0

@@ -1,0 +1,2 @@
+# LiveDisplay
+allow init sysfs_livedisplay_tuneable:file { setattr w_file_perms };
