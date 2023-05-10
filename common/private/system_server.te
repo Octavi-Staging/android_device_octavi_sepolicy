@@ -9,3 +9,6 @@ hal_client_domain(system_server, hal_lineage_touch)
 
 # App Lock
 add_service(system_server, app_lock_service);
+
+# Let system server toggle xtra-daemon
+set_prop(system_server, xtra_control_prop)
